@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projetos desenvolvidos por Alex Pires." />
+  <title>Projetos – portifolioHUB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700;900&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/inner.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="index.html">portifolioHUB</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html" class="nav-link">Início</a></li>
+          <li><a href="curriculo.html" class="nav-link">Currículo</a></li>
+          <li><a href="experiencia.html" class="nav-link">Experiência Acadêmica</a></li>
+          <li><a href="projetos.html" class="nav-link active" aria-current="page">Projetos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="inner-hero">
+      <div class="inner-hero-overlay"></div>
+      <div class="inner-hero-content">
+        <h1>Projetos</h1>
+        <p>Trabalhos e experimentos desenvolvidos durante a graduação</p>
+      </div>
+    </section>
+
+    <section class="inner-section">
+      <div class="container">
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-icon">🌐</div>
+            <h3>portifolioHUB</h3>
+            <p>Site pessoal de portfólio desenvolvido com HTML, CSS e JavaScript puro, responsivo e acessível.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">📊</div>
+            <h3>Sistema de Controle Acadêmico</h3>
+            <p>Aplicação web para gerenciamento de notas e frequência, desenvolvida em projeto prático da graduação.</p>
+            <div class="project-tags">
+              <span>SQL</span><span>HTML</span><span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">🔧</div>
+            <h3>Algoritmos &amp; Estruturas de Dados</h3>
+            <p>Implementações de estruturas clássicas (listas, filas, pilhas, árvores) e algoritmos de ordenação e busca.</p>
+            <div class="project-tags">
+              <span>Lógica</span><span>Algoritmos</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Slides embed (same as home) -->
+        <div style="margin-top:64px;">
+          <h2 class="section-heading center" style="color:#303033; margin-bottom:32px;">Apresentação Completa</h2>
+          <div class="embed-wrapper">
+            <iframe
+              src="https://docs.google.com/presentation/d/1WulaVynHJFcyHzccJ8hJA90GDGTbqmRLIjrIgDzMnoM/embed?authuser=0"
+              frameborder="0"
+              allowfullscreen
+              title="Presentation, Portfólio"
+              sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-modals"
+            ></iframe>
+            <a class="open-slides-btn" href="https://docs.google.com/presentation/d/1WulaVynHJFcyHzccJ8hJA90GDGTbqmRLIjrIgDzMnoM/present" target="_blank" rel="noopener noreferrer">
+              Abrir apresentação em nova janela ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer-bar">
+    <p>© 2025 Alex Pires · <a href="https://sites.google.com" target="_blank" rel="noopener">Sites do Google</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

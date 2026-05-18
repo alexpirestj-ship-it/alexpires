@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Portfólio de Alex Pires — Engenharia de Software, Brasília-DF." />
+  <title>portifolioHUB – Alex Pires</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700;900&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ====== SKIP LINK ====== -->
+  <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+
+  <!-- ====== HEADER / NAV ====== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="index.html">portifolioHUB</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html" class="nav-link active" aria-current="page">Início</a></li>
+          <li><a href="curriculo.html" class="nav-link">Currículo</a></li>
+          <li><a href="experiencia.html" class="nav-link">Experiência Acadêmica</a></li>
+          <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== HERO SECTION ====== -->
+  <main id="main-content">
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">PORTFÓLIO<br /><span>Alex Pires</span></h1>
+      </div>
+    </section>
+
+    <!-- ====== SOBRE MIM ====== -->
+    <section class="section-about" aria-labelledby="about-heading">
+      <div class="section-bg-img about-bg"></div>
+      <div class="container">
+        <h2 id="about-heading" class="section-heading dark">Sobre mim:</h2>
+      </div>
+    </section>
+
+    <section class="section-bio" aria-label="Biografia">
+      <div class="section-bg-img bio-bg"></div>
+      <div class="container bio-layout">
+        <div class="bio-photo">
+          <img
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUBRhEkMc3VRTuukTXTG7fox9E_7e_HqVwenfK27Aq_3Hn5zunxaQHDmPI45HZUSbs6vjOzl6MoZlO7k6adsLQC4smUEx3hCDhkIb-NbssWyFjRXIFEdKUdZ1Vq21snVZrU41ochQuc1loRmcZv1dyXL2ldi-pc8e9DoHOfh7A5SuH486rTYZlAdWbrnH4d0jHYn09j8tpCDYnobDyIcpTaenRqeG_u2TFIkzYo=w1280"
+            alt="Foto de Alex Pires"
+            class="profile-img"
+          />
+        </div>
+        <div class="bio-text">
+          <p>
+            Meu nome é Alex Pires, tenho 18 anos, moro em Brasília - DF e sou formando em
+            Engenharia de Software na Universidade CEUB, em Taguatinga. Desde pequeno sempre fui
+            fascinado por tecnologia, onde via filmes, séries de televisão e diversas outros
+            assuntos que envolviam sobre o mundo tecnológico, me encantavam e com isso decidi
+            seguir esse caminho inovador e cheio de descobertas novas a cada dia. Estou bastante
+            entusiasmado e identificado com minha escolha de curso e pretendo aprender cada dia
+            mais com esse mundo de opções.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CONTATO ====== -->
+    <section class="section-contact dark-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading" class="section-heading center">Informações para contato:</h2>
+      </div>
+    </section>
+
+    <section class="section-contact-info dark-section" aria-label="Dados de contato">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-item">
+            <span class="contact-label">📞 Telefone:</span>
+            <span class="contact-value">(61) 99286-0512</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">✉️ E-mail:</span>
+            <a href="mailto:alexpires.tavaresjunior@gmail.com" class="contact-value contact-link">
+              alexpires.tavaresjunior@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== PORTFÓLIO SLIDE ====== -->
+    <section class="section-portfolio" aria-labelledby="portfolio-heading">
+      <div class="container">
+        <h2 id="portfolio-heading" class="section-heading center">Portfólio em Slides</h2>
+        <div class="embed-wrapper">
+          <iframe
+            src="https://docs.google.com/presentation/d/1WulaVynHJFcyHzccJ8hJA90GDGTbqmRLIjrIgDzMnoM/embed?authuser=0"
+            frameborder="0"
+            allowfullscreen
+            title="Presentation, Portfólio"
+            sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-modals"
+          ></iframe>
+          <a
+            class="open-slides-btn"
+            href="https://docs.google.com/presentation/d/1WulaVynHJFcyHzccJ8hJA90GDGTbqmRLIjrIgDzMnoM/present"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Abrir apresentação em nova janela ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer-bar">
+    <p>© 2025 Alex Pires · <a href="https://sites.google.com" target="_blank" rel="noopener">Sites do Google</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
